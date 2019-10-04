@@ -1,0 +1,69 @@
+---
+layout: default
+---
+{% capture the_collection %}{{page.collection}}{% endcapture %}
+{% if page.collection %}
+{% assign  document = site[the_collection]  %}
+{% endif %}
+{% for links in document  %}
+{% if links.title == page.title %}
+{% unless forloop.first %}
+{% assign prevurl = prev.url %}
+{% assign prevtitle = prev.nav %}
+{% endunless %}
+{% unless forloop.last %}
+{% assign next = document[forloop.index] %}
+{% assign nexturl = next.url %}
+{% assign nexttitle = next.nav %}
+{% endunless %}
+{% endif %}
+{% assign prev = links %}
+{% endfor %}
+
+<!-- Header of the question -->
+<header class="container">
+  <div class="question__heading">
+    <h3 class="question__subtitle">{{ site.pages[0].title }}</h3>
+    <h2 class="question__title">{{ page.title }}</h2>
+  </div>
+</header>
+
+<!-- Main visualization -->
+<main class="question__visualization">
+  {% include_relative {{ page.number | prepend: "visualizations/visualization0" | append: ".html" }} %}
+</main>
+
+<article class="container question__article">
+  <!-- Side scrolling menu -->
+  <div class="question__sidebar">
+    <p class="question__sidebar__title">Research questions</p>
+    <ul>
+      {% for question in site.questions %}
+      <li class="sidebar__item">
+        <a class="question__link" href="{{ question.url | relative_url }}"> {{ question.title }} </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <!-- Question content -->
+  <div class="question__content">
+    {{ content }}
+
+    <div class="source__table">
+      <div class="source__item">
+        <h4>Data sources</h4>
+        <h4>Date of retrieval</h4>
+      </div>
+      {% for source in page.sources %}
+        <div class="source__item">
+          <div class="source__item__name">
+            <p><a href="{{ source.link }}" target="_blank"> <i class="fas fa-arrow-circle-down"></i> {{ source.name }}</a></p>
+          </div>
+          <div class="source__item__timestamp">
+            <p>{{ source.timestamp }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</article>

@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<header class="cover">
+    <img class="cover__image" src="{{ page.cover | relative_url }}" alt="cover image of the project">
+    <div class="cover__background"></div>
+    <h5 class="cover__heading">DensityDesign FSDS 2019/2020</h5>
+    <h1 class="display cover__title">{{ page.title }}</h1>
+    <p class="cover__subtitle">A project by {{ page.members }}
+    </p>
+    <!-- <div class="btn--burger" role="button" tabindex="0" aria-pressed="false">
+        <div class="btn--burger__line"></div>
+        <div class="btn--burger__line"></div>
+        <div class="btn--burger__line"></div>
+    </div>
+    <div class="btn--close" role="button" tabindex="0" aria-pressed="false">
+        <div class="btn--close__line"></div>
+    </div> -->
+</header>
+
+<main class="container content">
+    <div class="intro">
+        {{ content }}
+    </div>
+    <div class="research">
+        <div class="research__map">
+          {% for question in site.questions %}
+            <div class="research__question">
+              <div class="research__cover">
+                <a href="{{ question.url | relative_url }}">
+                  <img src="{{ question.cover | relative_url }}" class="research__image">
+                </a>
+              </div>
+              <div class="research__meta">
+                <h2><a href="{{ question.url | relative_url }}"> {{ question.title }} </a></h2>
+                <p> {{ question.intro }} </p>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+    </div>
+</main>

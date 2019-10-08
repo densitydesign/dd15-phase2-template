@@ -1,6 +1,6 @@
 ---
 title: An exhaustive title that encapsulate your research.
-cover: https://cdn.weasyl.com/~kazzy/submissions/1613974/c49cd8fdcd2db189be02f270e275e3d4e02b632544b2831611e647852a9ebf8c/kazzy-a-i-generated-crowd.png
+cover: assets/images/covers/cover@xl.jpeg
 members: Cosimo Carlevaro, Gervasio Arrigucci, Caterina Robustelli, Isidora Bencivenni, Giuliano Mancini, Viviana Pini
 description: Short description of the document for the meta tags (limit to 150 characters, longer will be cut by search engines)
 group: Group 01

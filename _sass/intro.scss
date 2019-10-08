@@ -64,7 +64,7 @@ header.cover {
 
 // Main styles
 main.content {
-    margin: 5.5rem auto 5rem;
+    margin: 3rem auto 5rem;
 }
 
 .intro p {
@@ -88,6 +88,11 @@ main.content {
     margin-top: 4rem;
     font-size: 1.2rem;
     line-height: 1.6;
+}
+
+.research h4 {
+  width: 100%;
+  text-align: center;
 }
 
 .research__question {

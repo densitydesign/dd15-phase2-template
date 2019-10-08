@@ -9,6 +9,8 @@ It uses Jekyll, a static website generator, so you can focus on the content and 
 
 *These commands will work for macOS.*
 
+## Check your Ruby version and update it if necessary
+
 The first time that you download or clone this repository on your computer, open the folder in your terminal and type:
 
 ```

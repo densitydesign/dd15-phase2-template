@@ -241,7 +241,7 @@ header.cover {
   z-index: 999; }
 
 main.content {
-  margin: 5.5rem auto 5rem; }
+  margin: 3rem auto 5rem; }
 
 .intro p {
   font-size: 1.2rem;
@@ -262,6 +262,10 @@ main.content {
   margin-top: 4rem;
   font-size: 1.2rem;
   line-height: 1.6; }
+
+.research h4 {
+  width: 100%;
+  text-align: center; }
 
 .research__question {
   display: grid;
@@ -712,7 +716,7 @@ footer {
     font-size: 1.2rem; }
 
   main.content {
-    margin: 12rem auto 5rem; }
+    margin: 6rem auto 5rem; }
 
   .question__title {
     grid-column: 1 / 11;

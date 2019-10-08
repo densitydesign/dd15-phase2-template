@@ -1,7 +1,7 @@
 # Phase 2 Template
 This will be the template to use for the delivery of Phase 2 of the DensityDesign Final Design Synthesis Studios 2019/2020.
 
-It uses Jekyll, a static website generator, so you can focus on the content and the visualizations of your research.
+It uses Jekyll, a static website generator, so you can focus on the content and the visualizations of your research. However, you're free to customize the look and feel of the report by changing colors and fonts. You will find the editable stylesheet inside the folder `_sass/variables.scss`. Remember to link the fonts from Google Fonts in the `<head>` tag on your HTML file under `_layouts/default.html`.
 
 1. Video tutorial for [macOS](https://www.youtube.com/watch?v=WhrU9m82Wm8&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB&index=2)
 

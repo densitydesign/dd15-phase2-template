@@ -36,8 +36,8 @@ layout: default
 <article class="container question__article">
   <!-- Side scrolling menu -->
   <div class="question__sidebar">
-    <p class="question__sidebar__title">Research questions</p>
-    <ul>
+    <button class="question__sidebar__title">Research questions <i class="fas fa-chevron-up"></i></button>
+    <ul class="links__open">
       {% for question in site.questions %}
       <li class="sidebar__item">
         <a class="question__link" href="{{ question.url | relative_url }}"> {{ question.title }} </a>

@@ -37,4 +37,13 @@ $(document).ready(() => {
     let $el = $(event.currentTarget);
     $el.html("📘");
   })
+
+  // Set sidebar height
+  $(".question__sidebar").css("height", $(window).height() - 15);
+
+  // Collapse sidebar
+  $(".question__sidebar__title").on("click", () => {
+    $("ul").toggleClass("links__open links__collapsed");
+    $(".fa-chevron-up").toggleClass("rotated");
+  });
 })

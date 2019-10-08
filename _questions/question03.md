@@ -1,7 +1,7 @@
 ---
 title: What event would you like to know the whole and complete truth about?
 
-cover: /assets/images/covers/viz02.jpg
+cover: /assets/images/covers/viz03.jpg
 
 number: 3
 

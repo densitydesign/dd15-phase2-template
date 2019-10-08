@@ -7,13 +7,12 @@ It uses Jekyll, a static website generator, so you can focus on the content and 
 
 1. Video tutorial for [Windows](https://www.youtube.com/watch?v=LfP7Y9Ja6Qc&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB&index=3)
 
-*These commands will work for macOS.*
-
-## Check your Ruby version
+## Step-by-step installation (macOS)
+### Check your Ruby version
 1. To check the Ruby version installed on your Mac, type `ruby -v` in your terminal. You should have installed a version 2.1 or higher.
 2. Check your gem version by typing `gem -v`. gem is a package manager needed to install Jekyll.
 
-## Install Jekyll before cloning the repository
+### Install Jekyll before cloning the repository
 To install Jekyll, open the Terminal in a new window and type
 
 ```
@@ -28,8 +27,8 @@ $ sudo gem install jekyll bundler
 
 and then insert your computer's password (it will not show dots or asterisks, so it will seem like you're not typing).
 
-## Run your template locally
-Now that you install Jekyll on your computer, you are ready to start working.
+### Run your template locally
+Now that you installed Jekyll on your computer, you are ready to start working.
 
 The first time that you download or clone this repository on your computer, open the folder in your terminal (by dragging it onto the terminal icon in the dock, or by opening it through Github) and type
 

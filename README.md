@@ -3,11 +3,10 @@ This will be the template to use for the delivery of Phase 2 of the DensityDesig
 
 It uses Jekyll, a static website generator, so you can focus on the content and the visualizations of your research. However, you're free to customize the look and feel of the report by changing colors and fonts. You will find the editable stylesheet inside the folder `_sass/variables.scss`. Remember to link the fonts from Google Fonts in the `<head>` tag on your HTML file under `_layouts/default.html`.
 
+## Step-by-step installation (macOS)
 1. Video tutorial for [macOS](https://www.youtube.com/watch?v=WhrU9m82Wm8&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB&index=2)
-
 1. Video tutorial for [Windows](https://www.youtube.com/watch?v=LfP7Y9Ja6Qc&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB&index=3)
 
-## Step-by-step installation (macOS)
 ### Check your Ruby version
 1. To check the Ruby version installed on your Mac, type `ruby -v` in your terminal. You should have installed a version 2.1 or higher.
 2. Check your gem version by typing `gem -v`. gem is a package manager needed to install Jekyll.

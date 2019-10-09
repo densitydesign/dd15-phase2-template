@@ -129,27 +129,31 @@
 .question__sidebar {
   font-family: var(--font-display);
   font-weight: 400;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 1vh;
   -ms-flex-item-align: start;
   align-self: start;
-  display: none;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0.5rem 0;
   overflow-y: scroll;
   scroll-behavior: smooth;
+  height: auto;
 }
 
 .question__sidebar__title {
   font-family: var(--font-display);
-  font-size: 0.8rem;
-  text-transform: uppercase;
+  font-size: 1rem;
   font-weight: 700;
+  text-transform: uppercase;
   color: var(--color-main);
   margin: 0.5rem 0 1rem 0;
   background: none;
   border: 0;
   padding: 0;
   transition: color 0.3s ease;
+  position: absolute;
+  right: 1rem;
   -webkit-appearance: none;
     -moz-appearance: none;
 }
@@ -170,11 +174,11 @@
 }
 
 .rotated {
-  transform: translateY(-0.1rem) rotate(180deg)
+  transform: rotate(180deg);
 }
 
 .question__sidebar p {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   text-transform: uppercase;
   font-weight: 700;
   color: var(--color-main);
@@ -183,21 +187,28 @@
 
 .question__sidebar .links__open {
   opacity: 1;
+  background: var(--color-lightest);
+  padding: 1rem;
+  z-index: 9999;
   transition: all 0.3s ease;
+  margin-top: 2.5rem;
 }
 
 .question__sidebar .links__collapsed {
   opacity: 0;
-  height: 0rem;
+  pointer-events: none;
   overflow: hidden;
+  padding: 1rem;
+  margin-top: 2.5rem;
+  border-radius: 4px;
   transition: all 0.3s ease;
 }
 
 .question__link {
   font-weight: 700;
   display: block;
-  font-size: 0.9rem;
-  margin-bottom: 1.3rem;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
   -webkit-transition: color 0.2s ease;
   transition: all 0.2s ease;
   color: var(--color-dark);
@@ -234,7 +245,6 @@
   display: inline-block;
   margin-top: 2.4rem;
   padding-top: 0.8rem;
-  position: relative;
   font-size: 1.3rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -287,12 +297,12 @@
   width: 10vw;
 }
 
-.question__content blockquote {
+.question__intro {
   font-size: 1.5rem;
   margin: 0;
 }
 
-.question__content blockquote p {
+.question__intro p {
   font-family: var(--font-text);
   font-size: 1.3rem;
   line-height: 1.4;
@@ -300,7 +310,7 @@
   color: var(--color-main);
 }
 
-.question__content blockquote p:after {
+.question__intro p:after {
   content: "⤸";
   font-size: 1.5rem;
   margin-left: 0.5rem;

@@ -11,6 +11,11 @@
     width: 0.7rem;
     height: 1rem;
   }
+
+  .question__heading {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
     html {
         --container-width: 90%;
     }

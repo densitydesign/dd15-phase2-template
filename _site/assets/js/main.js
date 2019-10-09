@@ -33,17 +33,26 @@ $(document).ready(() => {
   $(".home__index a").on("mouseenter", (event) => {
     let $el = $(event.currentTarget);
     $el.html("📖");
+    $(".navigation__label").toggleClass("visible");
+    $("nav").toggleClass("nav__hover");
   }).on("mouseleave", (event) => {
     let $el = $(event.currentTarget);
     $el.html("📘");
+    $(".navigation__label").toggleClass("visible");
+    $("nav").toggleClass("nav__hover");
   })
 
   // Set sidebar height
   $(".question__sidebar").css("height", $(window).height() - 15);
 
+  if ($(window).width() < 768) {
+    $(".question__sidebar ul").toggleClass("links__open links__collapsed");
+  }
+
   // Collapse sidebar
   $(".question__sidebar__title").on("click", () => {
     $("ul").toggleClass("links__open links__collapsed");
     $(".fa-chevron-up").toggleClass("rotated");
+    $(this).css("background", "var(--color-lightest)");
   });
 })

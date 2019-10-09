@@ -2,7 +2,7 @@
 title: How many times do we move forward?
 cover: /assets/images/covers/viz01.jpg
 number: 1
-intro: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+intro: Use this text, in no more than 400 characters, to give context to the research question. Explain what drove you to explore this subject, platform or method and the overall goal that you want to achieve. Did it highlight unexpected results? Did it show unseen inner workings of your research topic?
 sources:
   - name: Wikipedia
     link: https://www.wikipedia.org/
@@ -11,8 +11,6 @@ sources:
     link: https://google.com
     timestamp: 22/10/2019
 ---
-
-> Use this text, in no more than 400 characters, to give context to the research question. Explain what drove you to explore this subject, platform or method and the overall goal that you want to achieve. Did it highlight unexpected results? Did it show unseen inner workings of your research topic?
 
 ### Main Findings
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

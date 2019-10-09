@@ -1,19 +1,48 @@
 nav {
     position: fixed;
-    top: 1vh;
+    top: 0.6vh;
     left: 1.5vh;
-    width: 100%;
     color: var(--color-accent);
     z-index: 99;
     pointer-events: none;
+    transition: 0.3s ease all;
+    border: 1px solid transparent;
+    // outline: 1px solid cyan;
 }
+
+.nav__hover {
+  background: var(--color-lightest);
+  border: 1px solid rgba(0,0,0,.2);
+  padding: 0 0.7rem;
+  border-radius: 4px;
+}
+
+// nav * {
+//   outline: 1px solid cyan;
+// }
 
 .home__index {
   font-size: 1.4rem;
   display: inline-block;
   pointer-events: all;
+  transform: translateY(0.3rem);
 }
 
 .home__index:hover {
   cursor: pointer;
+}
+
+.navigation__label {
+  display: none;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-dark);
+}
+
+.navigation__label h4 {
+  margin: 0;
+}
+
+.visible {
+  display: inline-block;
 }

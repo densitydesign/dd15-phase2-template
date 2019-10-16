@@ -6,7 +6,13 @@
   h1 {
     font-size: 3.6rem;
   }
-
+  nav {
+    top: 0.6vh;
+    left: 1.5vh;
+    border: 1px solid transparent;
+    background: none;
+    padding: 0;
+  }
   .index {
     grid-template: "title" 60px "link" 60px "subtitle" 30px "index" 1fr / 6rem 1fr 6rem;
   }

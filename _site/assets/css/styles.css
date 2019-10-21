@@ -184,10 +184,7 @@ nav {
   width: 100%; }
 
 .nav__hover {
-  background: var(--color-lightest);
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  padding: 0 0.7rem;
-  border-radius: 4px; }
+  padding: 0 0.7rem; }
 
 .home__index {
   font-size: 1.4rem;

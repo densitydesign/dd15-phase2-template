@@ -7,12 +7,28 @@ It uses Jekyll, a static website generator, so you can focus on the content and 
 1. Video tutorial for [macOS](https://www.youtube.com/watch?v=WhrU9m82Wm8&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB&index=2)
 1. Video tutorial for [Windows](https://www.youtube.com/watch?v=LfP7Y9Ja6Qc&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB&index=3)
 
-### Check your Ruby version
-1. To check the Ruby version installed on your Mac, type `ruby -v` in your terminal. You should have installed a version 2.1 or higher.
-2. Check your gem version by typing `gem -v`. gem is a package manager needed to install Jekyll.
+### Update Ruby
+Open your terminal in a new window. On the window title bar it should say your username.
 
-### Install Jekyll before cloning the repository
-To install Jekyll, open the Terminal in a new window and type
+Install RVB (Ruby Version Manager) using the command
+```
+curl -sSL https://raw.githubusercontent.com/rvm/rvm/master/binscripts/rvm-installer | bash -s stable
+```
+**Restart your terminal to have rvm running on your computer!**
+
+Update Ruby to the latest stable version
+
+```
+rvm install ruby-2.6.5
+```
+
+Install the Xcode command line on your Mac. You will not need it directly but it's required to make everything work.
+
+```
+xcode-select install
+```
+### Install Jekyll before downloading the repository
+In the same window as before, to install Jekyll globally on your computer, type
 
 ```
 $ gem install jekyll bundler
@@ -29,7 +45,7 @@ and then insert your computer's password (it will not show dots or asterisks, so
 ### Run your template locally
 Now that you installed Jekyll on your computer, you are ready to start working.
 
-The first time that you download or clone this repository on your computer, open the folder in your terminal (by dragging it onto the terminal icon in the dock, or by opening it through Github) and type
+Download this repository as a zip on your computer, open the folder in your terminal (by dragging it onto the terminal icon in the dock, or by opening it through Github) and type
 
 ```
 $ bundle install

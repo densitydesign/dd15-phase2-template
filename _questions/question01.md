@@ -2,7 +2,7 @@
 title: How many times do we move forward?
 cover: /assets/images/covers/viz01.jpg
 number: 1
-intro: Use this text, in no more than 400 characters, to give context to the research question. Explain what drove you to explore this subject, platform or method and the overall goal that you want to achieve. Did it highlight unexpected results? Did it show unseen inner workings of your research topic?
+intro: Use this text, in no more than 400 characters, to give context to the research question. Sometimes it’s useful to start from a known claim (from news articles) about the topic. What is known about this subject and what do you aim to add with your research protocol?
 sources:
   - name: Wikipedia
     link: https://www.wikipedia.org/
@@ -13,23 +13,24 @@ sources:
 ---
 
 ### Main Findings
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Use this space, in no more than 280 characters, to explain an interesting first finding that emerges from the visualization. Text, and/or a portion of the main visualisation can be used.
+
 
 ![example of finding]({{ '/assets/images/example-finding.png' | relative_url }})
 
 ***
 
-Pulvinar mattis nunc sed blandit libero. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros in.
+Always in no more than 280 characters, show another finding that emerges from the visualisation. Even in this case you can use only text and/or a portion of the main visualisation.
 
 ***
 
-Tellus molestie nunc non blandit. Aenean vel elit scelerisque mauris pellentesque pulvinar. Lectus vestibulum mattis ullamcorper velit sed. In ornare quam viverra orci sagittis. Pellentesque sit amet porttitor eget dolor morbi non arcu risus.
+Always in no more than 280 characters, show another finding that emerges from the visualisation. Even in this case you can use only text and/or a portion of the main visualisation.
 
 ![example of secondary viz, highlighting something]({{ '/assets/images/example-mid-viz.svg' | relative_url }})
 
 ***
 
-Nunc lobortis mattis aliquam faucibus purus in massa tempor nec. Duis tristique sollicitudin nibh sit amet. Pretium nibh ipsum consequat nisl vel pretium.
+Always in no more than 280 characters, show another finding that emerges from the visualisation. Even in this case you can use only text and/or a portion of the main visualisation.
 
 ### Protocol
 

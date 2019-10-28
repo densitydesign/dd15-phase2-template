@@ -1,4 +1,4 @@
-// This is Javascript code to make the example in question02 work, fell free to remove this when you start working on your project
+// This is Javascript code to make the example in question02 work, feel free to remove this when you start working on your project
 $(document).ready(function() {
 
     $('.bubble').on('click', function(event) {
